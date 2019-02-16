@@ -1,0 +1,34 @@
+doctype html
+html
+	head
+		title Райские вазы
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
+		meta(name='description', content='По легенде этот мир находился в устье двух рек. Между берегами, где струились струи и сквозили косые сквозняки, прятался крохотный остров, за россыпью теней перекатывался глиняный камень, догоняя и пряча от солнечного света керамический портал.')
+		meta(property='og:image' content='img/icon/fbvk.jpg')
+		link(rel='shortcut icon', href='img/icon/favicon.jpg', type='image/x-icon')
+		link(rel='stylesheet', type='text/css', href='css/main.css')
+		link(rel='stylesheet', type='text/css', href='css/swiper.min.css')
+		script(type='text/javascript', src='https://w.soundcloud.com/player/api.js')
+		script(type='text/javascript', src='js/jquery-3.3.1.min.js')
+		script(type='text/javascript', src='js/swiper.min.js')
+		script(type='text/javascript', src='js/main.js')
+	body
+		mixin player(id)
+			- var params = '&color=000000&sharing=false&download=false&show_artwork=false&show_playcount=false&liking=fals‌​e'
+			iframe(width='100%', height='100', scrolling='no', frameborder='no', src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + id + params)
+
+		.title_block: .title_inner
+			.logo Райские вазы
+			.social
+				a(href='mailto:rayskievazy@gmail.com') rayskievazy@gmail.com
+				a(href='https://www.instagram.com/rayskievazy', target='_blank') instagram
+				a(href='https://vk.com/rayskievazy', target='_blank') vk
+				a(href='#', target='_blank') youtube
+
+		.slider_outer
+			.slider_block.swiper-container: .swiper-wrapper
+				each id, i in [272551887, 272551887, 272551887, 272551887, 272551887, 272551887, 272551887, 272551887, 272551887, 272551887]
+					.slide_item.swiper-slide
+						.slide_image(style='background-image: url(img/items/' + (i+1) + '.jpg)')
+							.player: +player(id)
