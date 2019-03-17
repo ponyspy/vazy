@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #513b26;
+}
+.exhibition_head {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.exhibition_head .main {
+  font: 30pt/32pt 'Time New Roman';
+  color: #000;
+  text-decoration: none;
+}
+.exhibition_head .main:hover {
+  text-decoration: underline;
+}
+.exhibition_head .title {
+  font: 18pt/20pt 'Time New Roman';
+}
+.exhibition_items {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.exhibition_items img {
+  width: 100%;
+  display: block;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 800px) {
+  .exhibition_head {
+    margin-top: 50px !important;
+    margin-bottom: 30px !important;
+  }
+  .exhibition_head .main {
+    font: 14pt/14pt 'Time New Roman' !important;
+  }
+  .exhibition_head .title {
+    font: 12pt/14pt 'Time New Roman' !important;
+  }
+  .exhibition_items img {
+    margin-bottom: 30px !important;
+  }
+}

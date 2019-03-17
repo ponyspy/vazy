@@ -1,0 +1,19 @@
+doctype html
+html
+	head
+		title Райские вазы / 26.01-27.01.2019
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
+		meta(name='description', content='По легенде этот мир находился в устье двух рек. Между берегами, где струились струи и сквозили косые сквозняки, прятался крохотный остров, за россыпью теней перекатывался глиняный камень, догоняя и пряча от солнечного света керамический портал.')
+		meta(property='og:image' content='img/fbvk.jpg')
+		link(rel='shortcut icon', href='img/favicon.png', type='image/x-icon')
+		link(rel='stylesheet', type='text/css', href='css/exhibition.css')
+		script(type='text/javascript', src='js/jquery-3.3.1.min.js')
+	body
+		.exhibition_head
+			a.main(href='/') Райские вызы
+			.title 26.01-27.01.2019
+
+		.exhibition_items
+			each item, i in new Array(17)
+				img(src='img/exhibition/' + (i+1) + '.jpg')
