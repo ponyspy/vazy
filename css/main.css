@@ -65,8 +65,9 @@ body {
           box-sizing: border-box;
 }
 .title_block .title_inner .logo {
+  margin-top: 20px;
   float: left;
-  font: 30pt/32pt 'Time New Roman';
+  font: 12pt/14pt 'Time New Roman' !important;
 }
 .title_block .title_inner .social {
   margin-top: 20px;
@@ -93,14 +94,14 @@ body {
     padding-left: 20px !important;
     padding-right: 20px !important;
   }
+  .logo {
+    margin-top: 0 !important;
+  }
   .social {
     margin-top: 1px !important;
   }
   .social a {
     text-align: right !important;
-  }
-  .logo {
-    font: 14pt/14pt 'Time New Roman' !important;
   }
   .title_inner {
     margin-top: 20px !important;
