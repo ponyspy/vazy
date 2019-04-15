@@ -80,6 +80,9 @@ body {
   color: #000;
   text-decoration: none;
 }
+.title_block .title_inner .social a.exhibition {
+  color: #513b26;
+}
 .title_block .title_inner .social a:hover {
   text-decoration: underline;
 }
@@ -98,7 +101,7 @@ body {
     margin-top: 0 !important;
   }
   .social {
-    margin-top: 1px !important;
+    margin-top: 0px !important;
   }
   .social a {
     text-align: right !important;
