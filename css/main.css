@@ -5,14 +5,13 @@
   z-index: 1;
 }
 .content_block .content_inner {
-  background-color: #f00;
   margin: 0 auto;
   margin-top: 240px;
   position: relative;
   max-width: 940px;
   width: 100%;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   box-sizing: border-box;
 }
 .exhibitions_block {
@@ -22,15 +21,15 @@
   flex-wrap: wrap;
 }
 .exhibitions_block .ex_item {
-  flex-basis: 220px;
+  flex-basis: 230px;
   color: #000;
   text-decoration: none;
   width: 190px;
   margin-top: 40px;
   box-sizing: border-box;
   position: relative;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
   text-align: center;
 }
 .exhibitions_block .ex_item .ex_image {
