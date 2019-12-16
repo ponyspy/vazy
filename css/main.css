@@ -46,3 +46,15 @@
 .exhibitions_block .ex_item .ex_title {
   margin-top: 20px;
 }
+@media screen and (max-width: 800px) {
+  .exhibitions_block {
+    display: block;
+  }
+  .exhibitions_block .ex_item {
+    margin-top: 20px !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    display: block !important;
+    width: 100% !important;
+  }
+}
