@@ -1,0 +1,54 @@
+html,
+body {
+  height: 100%;
+}
+.slider_outer {
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.slider_outer .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.slider_outer .swiper-container .swiper-slide {
+  position: relative;
+  filter: brightness(93%);
+}
+.slider_outer .swiper-container .swiper-slide .slide_image {
+  width: 100%;
+  padding-bottom: calc(100% - 100px);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50%;
+  transform: translateY(calc(-50% - 25px));
+}
+.slider_outer .swiper-container .swiper-slide.swiper-slide-active {
+  filter: none;
+}
+.slider_outer .swiper-container .swiper-slide.swiper-slide-active .player {
+  display: block;
+}
+.slider_outer .swiper-container .swiper-slide .player {
+  display: none;
+  padding-left: 15%;
+  padding-right: 15%;
+  box-sizing: border-box;
+  width: 100%;
+  position: absolute;
+  bottom: -55px;
+}
+@media screen and (max-width: 800px) {
+  .slide_image {
+    transform: translateY(-60%) !important;
+    padding-bottom: calc(100% - 40px) !important;
+  }
+  .player {
+    bottom: -125px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}

@@ -1,0 +1,48 @@
+html
+body
+	height 100%
+
+
+.slider_outer
+	z-index 0
+	position absolute
+	width 100%
+	height 100%
+	.swiper-container
+		width 100%
+		height 100%
+		.swiper-slide
+			position relative
+			filter: brightness(93%)
+			.slide_image
+				width 100%
+				padding-bottom calc(100% - 100px)
+				background-position center
+				background-size contain
+				background-repeat no-repeat
+				position relative
+				top 50%
+				transform translateY(calc(-50% - 25px))
+			&.swiper-slide-active
+				filter: none
+				.player
+					display block
+			.player
+				display none
+				padding-left 15% // 40
+				padding-right 15% // 40
+				box-sizing border-box
+				width 100%
+				position absolute
+				bottom -55px
+
+
+@media screen and (max-width: 800px)
+	.slide_image
+		transform translateY(-60%)!important
+		padding-bottom calc(100% - 40px)!important // 70px
+	.player
+		bottom -125px!important
+		padding-left 20px!important
+		padding-right 20px!important
+

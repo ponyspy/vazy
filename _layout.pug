@@ -1,0 +1,28 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
+		block content_meta
+
+		if content_title
+			title= content_title
+		if content_description
+			meta(name='description', content=content_description)
+
+		meta(property='og:image' content='img/fbvk.jpg')
+		link(rel='shortcut icon', href='img/favicon.png', type='image/x-icon')
+		block content_styles
+		block content_scripts
+	body
+		.title_block: .title_inner
+			a.logo(href='../index.html') Райские вазы
+			.social
+				a(href='mailto:rayskievazy@gmail.com') rayskievazy@gmail.com
+				a(href='https://www.instagram.com/rayskievazy', target='_blank') instagram
+				a(href='https://vk.com/rayskievazy', target='_blank') vk
+				a(href='https://www.youtube.com/playlist?list=PL_JYNWOwvQtFJzHuaFMb-zjIhj5wJv8yU', target='_blank') youtube
+
+		.content_block: .content_inner
+			block content
+

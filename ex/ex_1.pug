@@ -1,0 +1,20 @@
+extends ../_layout
+
+block content_meta
+	- var content_title = 'Райские вазы / 26.01-27.01.2019'
+	- var content_description = ''
+
+block content_styles
+	link(rel='stylesheet', type='text/css', href='../css/global.css')
+	link(rel='stylesheet', type='text/css', href='../css/ex.css')
+
+block content_scripts
+	script(type='text/javascript', src='../js/jquery-3.3.1.min.js')
+	script(type='text/javascript', src='../js/global.js')
+	script(type='text/javascript', src='../js/ex.js')
+
+
+block content
+	.exhibition_items
+		each item, i in new Array(17)
+			img(src='../img/ex1/' + (i+1) + '.jpg')
