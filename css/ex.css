@@ -16,9 +16,8 @@ body {
   margin-bottom: 50px;
 }
 @media screen and (max-width: 800px) {
-  .exhibition_head {
-    margin-top: 20px !important;
-    margin-bottom: 30px !important;
+  .exhibition_items {
+    margin-top: 140px;
   }
   .exhibition_items img {
     margin-bottom: 30px !important;
