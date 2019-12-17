@@ -27,6 +27,9 @@ body {
   float: left;
   font: 12pt/14pt 'Time New Roman' !important;
 }
+.title_block .title_inner .logo:hover {
+  text-decoration: underline;
+}
 .title_block .title_inner .social {
   margin-top: 20px;
   float: right;
