@@ -20,14 +20,17 @@ body {
   padding-right: 40px;
   box-sizing: border-box;
 }
-.title_block .title_inner .logo {
-  color: #000;
-  text-decoration: none;
-  margin-top: 20px;
+.title_block .title_inner .main {
   float: left;
+  margin-top: 20px;
   font: 12pt/14pt 'Time New Roman' !important;
 }
-.title_block .title_inner .logo:hover {
+.title_block .title_inner .main .logo {
+  color: #000;
+  text-decoration: none;
+  font: 12pt/14pt 'Time New Roman' !important;
+}
+.title_block .title_inner .main .logo:hover {
   text-decoration: underline;
 }
 .title_block .title_inner .social {
@@ -48,7 +51,7 @@ body {
   text-decoration: underline;
 }
 @media screen and (max-width: 800px) {
-  .logo {
+  .main {
     margin-top: 0 !important;
   }
   .social {
