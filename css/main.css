@@ -33,6 +33,7 @@
   padding-left: 20px;
   text-align: center;
 }
+.exhibitions_block .ex_item:hover .ex_date,
 .exhibitions_block .ex_item:hover .ex_title {
   text-decoration: underline;
 }
