@@ -23,12 +23,12 @@ body {
 .title_block .title_inner .main {
   float: left;
   margin-top: 20px;
-  font: 12pt/14pt 'Time New Roman' !important;
+  font: 12pt/16pt 'Time New Roman' !important;
 }
 .title_block .title_inner .main .logo {
   color: #000;
   text-decoration: none;
-  font: 12pt/14pt 'Time New Roman' !important;
+  font: 12pt/16pt 'Time New Roman' !important;
 }
 .title_block .title_inner .main .logo:hover {
   text-decoration: underline;
@@ -36,7 +36,7 @@ body {
 .title_block .title_inner .social {
   margin-top: 20px;
   float: right;
-  font: 12pt/14pt 'Time New Roman';
+  font: 12pt/16pt 'Time New Roman';
 }
 .title_block .title_inner .social a {
   display: block;

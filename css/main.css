@@ -33,6 +33,9 @@
   padding-left: 20px;
   text-align: center;
 }
+.exhibitions_block .ex_item:hover .ex_title {
+  text-decoration: underline;
+}
 .exhibitions_block .ex_item:hover .ex_image {
   transition: 0.3s linear;
   filter: blur(1px);
