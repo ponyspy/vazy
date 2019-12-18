@@ -6,10 +6,26 @@
 	padding-left 40px
 	padding-right 40px
 	box-sizing border-box
+	.video
+		margin 0 auto
+		margin-bottom 50px
+		width 100%
+		max-width 1080px
+		.video_inner
+			position relative
+			padding-bottom 56.25%  /* 16:9 */
+			padding-top 0px
+			height 0
+			iframe
+				position absolute
+				top 0; left 0
+				width 100%!important
+				height 100%!important
 	img
 		width 100%
 		display block
 		margin-bottom 50px
+
 
 @media screen and (max-width: 800px)
 	.exhibition_items

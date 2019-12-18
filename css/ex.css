@@ -6,6 +6,25 @@
   padding-right: 40px;
   box-sizing: border-box;
 }
+.exhibition_items .video {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 100%;
+  max-width: 1080px;
+}
+.exhibition_items .video .video_inner {
+  position: relative;
+  padding-bottom: 56.25% /* 16:9 */;
+  padding-top: 0px;
+  height: 0;
+}
+.exhibition_items .video .video_inner iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
 .exhibition_items img {
   width: 100%;
   display: block;
