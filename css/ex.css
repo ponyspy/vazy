@@ -1,13 +1,18 @@
 body.ex_1 {
   background-color: #513b26;
 }
-.exhibition_items {
+.content_block {
   margin: 0 auto;
   margin-top: 220px;
-  max-width: 1000px;
+  max-width: 940px;
   padding-left: 40px;
   padding-right: 40px;
   box-sizing: border-box;
+  padding-bottom: 60px;
+}
+.exhibition_desc {
+  width: 50%;
+  margin-bottom: 50px;
 }
 .exhibition_items .video {
   margin: 0 auto;
@@ -28,10 +33,15 @@ body.ex_1 {
   width: 100% !important;
   height: 100% !important;
 }
-.exhibition_items img {
+.exhibition_items .img_item {
+  margin-bottom: 50px;
+}
+.exhibition_items .img_item .img_desc {
+  margin-top: 20px;
+}
+.exhibition_items .img_item img {
   width: 100%;
   display: block;
-  margin-bottom: 70px;
 }
 @media screen and (max-width: 800px) {
   .exhibition_items {

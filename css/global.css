@@ -19,6 +19,7 @@ body {
   padding-left: 40px;
   padding-right: 40px;
   box-sizing: border-box;
+  overflow: hidden;
 }
 .title_block .title_inner .main {
   float: left;
@@ -33,31 +34,31 @@ body {
 .title_block .title_inner .main .logo:hover {
   text-decoration: underline;
 }
-.title_block .title_inner .social {
+.title_block .title_inner .links {
   margin-top: 20px;
   float: right;
   font: 12pt/16pt 'Time New Roman';
 }
-.title_block .title_inner .social a {
+.title_block .title_inner .links a {
   display: block;
   text-align: center;
   color: #000;
   text-decoration: none;
 }
-.title_block .title_inner .social a.exhibition {
+.title_block .title_inner .links a.exhibition {
   color: #513b26;
 }
-.title_block .title_inner .social a:hover {
+.title_block .title_inner .links a:hover {
   text-decoration: underline;
 }
 @media screen and (max-width: 800px) {
   .main {
     margin-top: 0 !important;
   }
-  .social {
+  .links {
     margin-top: 0px !important;
   }
-  .social a {
+  .links a {
     text-align: right !important;
   }
   .title_inner {

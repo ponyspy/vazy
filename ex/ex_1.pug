@@ -1,9 +1,8 @@
 extends ../_layout
 
 block content_meta
-	- var content_title = 'Райские вазы / Тальник x Райские вазы 26.01-27.01.2019'
+	- var content_title = 'Райские вазы / Тальник x Райские вазы 26.01 — 27.01.19'
 	- var content_description = ''
-	- var title_text = '26.01-27.01.2019'
 	- var ex_style = 'ex_1'
 
 block content_styles
@@ -16,7 +15,11 @@ block content_scripts
 	script(type='text/javascript', src='../js/ex.js')
 
 
+block title_text
+	div 26.01 — 27.01.19
+
+
 block content
 	.exhibition_items
 		each item, i in new Array(17)
-			img(src='../img/ex1/' + (i+1) + '.jpg')
+			.img_item: img(src='../img/ex1/' + (i+1) + '.jpg')

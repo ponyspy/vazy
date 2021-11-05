@@ -1,0 +1,55 @@
+extends ../_layout
+
+block content_meta
+	- var content_title = 'Райские вазы / Follow the Rainbow div 22.12.20 — 15.01.21'
+	- var content_description = ''
+	//- - var ex_style = 'ex_1'
+
+block content_styles
+	link(rel='stylesheet', type='text/css', href='../css/global.css')
+	link(rel='stylesheet', type='text/css', href='../css/ex.css')
+
+block content_scripts
+	script(type='text/javascript', src='../js/jquery-3.3.1.min.js')
+	script(type='text/javascript', src='../js/global.js')
+	script(type='text/javascript', src='../js/ex.js')
+
+
+block title_text
+	div Follow the Rainbow
+	div 22.12.20 — 15.01.21
+	div #[a(href='https://tzvetnik.online/article/follow-the-rainbow-group-show-curated-by-tzvetnik-at-issmag-moscow', target='_blank') Group Show Curated by TZVETNIK] at ISSMAG, Moscow
+
+
+block content
+	.exhibition_desc
+		div Find a crockpot of butter
+		div And eat it
+		div Look around
+		div Go into the woods
+		div Go back
+		div Dig up treasure
+		div Ponder
+		div Witness a bean tree growing
+		div And a rainbow on the rear glass frame
+		div Smile
+		div Become upset
+		div Grow a bean tree
+		div And pretend like nothing happened
+
+	.exhibition_items
+		.img_item
+			img(src='../img/ex3/1.jpg')
+			.img_desc Installation view
+		.img_item
+			img(src='../img/ex3/2.jpg')
+			.img_desc Untitled, 2020, glazed ceramics, 17x17x29 cm.
+		.img_item
+			img(src='../img/ex3/3.jpg')
+			.img_desc Installation view
+
+	.exhibition_desc
+		div Alina Brovina, Yaroslav Levitsky, Kristina Matveeva, Sasha Nesterkina, Yuri Otinov, Andrey Pokrovsky, and Sveta Tsepkalo
+		br
+		div Photo by Kristina Matveeva / Processing by Ilya Smirnov
+

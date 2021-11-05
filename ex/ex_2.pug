@@ -1,9 +1,8 @@
 extends ../_layout
 
 block content_meta
-	- var content_title = 'Райские вазы / Взорванный рай 16.11.2019-∞'
+	- var content_title = 'Райские вазы / Взорванный рай 16.11.19 — ∞'
 	- var content_description = ''
-	- var title_text = 'Взорванный рай<br>16.11.2019-∞<br>в Pupon rooms'
 
 block content_styles
 	link(rel='stylesheet', type='text/css', href='../css/global.css')
@@ -15,9 +14,15 @@ block content_scripts
 	script(type='text/javascript', src='../js/ex.js')
 
 
+block title_text
+	div Взорванный рай
+	div 16.11.19 — ∞
+	div в Pupon rooms
+
+
 block content
 	.exhibition_items
 		each item, i in new Array(19)
-			img(src='../img/ex2/' + (i+1) + '.jpg')
+			.img_item: img(src='../img/ex2/' + (i+1) + '.jpg')
 		.video: .video_inner
 			iframe(width='100%' height='100%' src='https://www.youtube.com/embed/fQCHcs1PdvM?rel=0' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen)

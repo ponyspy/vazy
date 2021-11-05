@@ -18,8 +18,9 @@ html
 		.title_block: .title_inner
 			.main
 				a.logo(href='../index.html') Райские вазы
-				.title_text!= title_text
-			.social
+				.title_text
+					block title_text
+			.links
 				a(href='mailto:rayskievazy@gmail.com') rayskievazy@gmail.com
 				a(href='https://www.instagram.com/rayskievazy', target='_blank') instagram
 				a(href='https://vk.com/rayskievazy', target='_blank') vk
