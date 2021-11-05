@@ -3,25 +3,20 @@ body {
   margin: 0;
   padding: 0;
 }
-.title_block {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  height: 0;
-  z-index: 1;
-}
 .title_block .title_inner {
   margin: 0 auto;
   margin-top: 40px;
   position: relative;
-  max-width: 940px;
+  max-width: 1040px;
   width: 100%;
   padding-left: 40px;
   padding-right: 40px;
   box-sizing: border-box;
   overflow: hidden;
+  overflow: hidden;
 }
 .title_block .title_inner .main {
+  width: 60%;
   float: left;
   margin-top: 20px;
   font: 12pt/16pt 'Time New Roman' !important;
@@ -35,6 +30,7 @@ body {
   text-decoration: underline;
 }
 .title_block .title_inner .links {
+  width: 40%;
   margin-top: 20px;
   float: right;
   font: 12pt/16pt 'Time New Roman';

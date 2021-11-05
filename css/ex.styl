@@ -1,26 +1,26 @@
 body.ex_1
 	background-color #513b26
 
-
 .content_block
 	margin 0 auto
-	margin-top 220px
-	max-width 940px
+	margin-top 50px
+	max-width 1040px
 	padding-left 40px
 	padding-right 40px
 	box-sizing border-box
-	padding-bottom 60px
+	padding-bottom 50px
 
 .exhibition_desc
 	width 50%
 	margin-bottom 50px
 
 .exhibition_items
+	margin 0 auto
+	width 100%
+	max-width 840px
 	.video
-		margin 0 auto
-		margin-bottom 70px
 		width 100%
-		max-width 1080px
+		margin-bottom 70px
 		.video_inner
 			position relative
 			padding-bottom 56.25%  /* 16:9 */
@@ -41,9 +41,9 @@ body.ex_1
 
 
 @media screen and (max-width: 800px)
-	.exhibition_items
+	.exhibition_desc
+		width 100%!important
+	.content_block
 		padding-left 20px!important
 		padding-right 20px!important
-		margin-top 140px!important
-		img
-			margin-bottom 50px!important
+
