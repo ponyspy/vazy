@@ -1,0 +1,1 @@
+rsync -av --exclude={'.git','.DS_Store','up'} . port_design:/var/www/vazy --delete
