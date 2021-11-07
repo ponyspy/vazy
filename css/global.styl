@@ -22,7 +22,7 @@ body
 		// background-color red
 		overflow hidden
 		.main
-			width 60%
+			width 50%
 			float left
 			margin-top 20px
 			font 12pt/16pt 'Time New Roman'!important
@@ -33,21 +33,27 @@ body
 				font 12pt/16pt 'Time New Roman'!important
 				&:hover
 					text-decoration underline
+			.title_text a
+				color black
 		.links
 			// background-color yellow
-			width 40%
+			width 50%
 			margin-top 20px
 			float right
 			font 12pt/16pt 'Time New Roman'
-			a
-				display block
-				text-align center
-				color black
-				text-decoration none
-				&.exhibition
-					color #513b26
-				&:hover
-					text-decoration underline
+			.links_inner
+				// background-color aqua
+				display table
+				float right
+				a
+					display block
+					text-align center
+					color black
+					text-decoration none
+					&.exhibition
+						color #513b26
+					&:hover
+						text-decoration underline
 
 
 @media screen and (max-width: 800px)
