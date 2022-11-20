@@ -1,0 +1,47 @@
+extends ../_layout
+
+block content_meta
+	- var content_title = 'Райские вазы / Горькая соль 2022'
+	- var content_description = ''
+	//- - var ex_style = 'ex_1'
+
+block content_styles
+	link(rel='stylesheet', type='text/css', href='../css/global.css')
+	link(rel='stylesheet', type='text/css', href='../css/ex.css')
+
+block content_scripts
+	script(type='text/javascript', src='../libs/js/jquery-3.3.1.min.js')
+	script(type='text/javascript', src='../js/global.js')
+	script(type='text/javascript', src='../js/ex.js')
+
+
+block title_text
+	div Горькая соль
+	div 2022
+	div: a(href='https://obdn.ru/authors/svetlana-cepkalo', target='_blank') Серия работ представлена на obdn.ru
+
+
+block content
+	.exhibition_desc
+		div В углу сарая оставлено несколько предметов, их трудно разглядеть. На глиняный пол летят плевки непогоды; ударяясь, они рассыпаются на миллиграммы мёртвой воды. Земляные пчёлы покидают свои дома. Впереди виднеется попеременно тающий и возникающий вновь тусклый свет фонаря. Будь осторожен, путник: из-под корневищ внимательно глядят маленькие острые глазки.
+
+	.exhibition_items
+		.img_item
+			img(src='../img/ex6/1.jpg')
+			.img_desc Солнце нежно играет светом на кончике тёплого острия, 2022. Глазурированная керамика. 28 х 29 х 31,5 см.
+		.img_item
+			img(src='../img/ex6/2.jpg')
+			.img_desc Подземный ручей, 2022. Глазурированная керамика. 22 х 22 х 24,5 см.
+		.img_item
+			img(src='../img/ex6/3.jpg')
+			.img_desc Храбрые двойники, 2022. Глазурированная керамика. 24,5 х 36 х 15 см.
+		.img_item
+			img(src='../img/ex6/4.jpg')
+			.img_desc Земная юдоль, 2022. Глазурированная керамика. 25,5 х 24,5 х 23 см.
+		.img_item
+			img(src='../img/ex6/5.jpg')
+			.img_desc Петрикор, 2022. Глазурированная керамика. 23,5 х22,5 х 26,5 см.
+		.img_item
+			img(src='../img/ex6/6.jpg')
+			.img_desc Патина окон на пальцах, 2022. Глазурированная керамика. 28 х 28 х 18 см.
+
